@@ -1,0 +1,73 @@
+body {
+  background-color: #7a7a7a;
+  font-size: 16px;
+}
+
+.myButton {
+  background-color: whitesmoke;
+  text-align: center;
+  width: 30%;
+  aspect-ratio: 1/1;
+  font-size: 6vw;
+}
+
+.additionalInfo p {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin: 2%;
+  width: 100%;
+}
+
+.historyBtn {
+  background-color: whitesmoke;
+  text-align: center;
+  width: 80%;
+  aspect-ratio: 6/1;
+  font-size: 1.5vw;
+  /* white-space: nowrap; 
+  overflow: hidden;  */
+}
+
+.game {
+  margin: 20px auto;
+  width: 75%;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;  
+}
+
+.board {
+  display: flex;
+  flex: 2;
+  padding: 5px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.additionalInfo {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  padding: 10px;
+}
+
+.winButton {
+  background-color: green;
+}
+
+.winnerLabel {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 3.5vw;
+}
+
+
+
+
+
+
+
